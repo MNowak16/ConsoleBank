@@ -13,6 +13,7 @@ namespace ConsoleBank.UnitTests
         /// </summary>
         [Fact]
         public void Debit_WithValidAmount_UpdatesBalance()
+        //naming convention = Method_Action Tested_Expected Outcome
         {
             // Arrange
             double beginningBalance = 11.99;
